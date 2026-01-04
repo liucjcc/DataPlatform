@@ -1,0 +1,43 @@
+.json-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height:100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.json-modal .modal-content {
+  background-color: #eee;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 70%;
+  max-width: 900px;
+  color: #333;
+  max-height: 80vh;       /* 最大高度为视口 80% */
+  overflow-y: auto;       /* 超出内容滚动 */
+  outline: 2px solid darkgray;  /* 看实际元素高度 */
+}
+
+.json-modal .close {
+  color: #aaa;
+  float: right;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  width:32px;
+  margin-top:-20px;
+  margin-right:-20px;
+}
+
+.json-modal .close:hover {
+  color: #666;
+}
+
+.jsoneditor {
+border:1px solid #ddd;
+}

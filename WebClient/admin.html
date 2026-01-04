@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <title>管理后台</title>
+    <link rel="stylesheet" href="/styles/typography.css" />
+    <link rel="stylesheet" href="/styles/login.css" />
+    <link rel="stylesheet" href="/styles/manager.css" />
+    <!--<link rel="stylesheet" href="./node_modules/jsoneditor/dist/jsoneditor.min.css">
+    <script src="./node_modules/jsoneditor/dist/jsoneditor.min.js"></script>-->
+</head>
+<body>
+    <div id="login-modal" class="modal hidden">
+        <div class="modal-content">
+            <h3>管理员登录</h3>
+
+            <input id="login-username" placeholder="用户名" />
+            <input id="login-password" type="password" placeholder="密码" />
+
+            <button id="btn-login">登录</button>
+            <p id="login-error" class="error"></p>
+        </div>
+    </div>
+
+    <div class="layout">
+
+        <div class="sidebar">
+            <h3>管理后台</h3>
+            <div class="nav-list">
+                <a href="#/device">设备管理</a>
+                <a href="#/user">用户管理</a>
+            </div>
+            <div class="bottom">
+                <button id="btnLogout">logout</button>
+            </div>
+        </div>
+
+        <div id="app" class="content"></div>
+    </div>
+    <script type="module" src="/manager/main.js"></script>
+</body>
+</html>

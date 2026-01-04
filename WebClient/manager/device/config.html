@@ -1,0 +1,30 @@
+
+<div class="top-box">
+    <h2>设备信息</h2>
+    <button onclick="history.back()">返回</button>
+</div>
+
+<div class="subpage-container">
+
+    <div id="tableContainer">
+        <table class="input-table">
+            <thead>
+                <tr>
+                    <th colspan="2"><span id="tableTitle"></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>设备ID</td><td><input id="deviceId" placeholder="设备ID" class="modern-input" /></td></tr>
+                <tr><td>设备名称</td><td><input id="deviceName" placeholder="名称" class="modern-input" /></td></tr>
+                <tr><td>生产唯一编号SN</td><td></td></tr>
+                <tr><td>类型(Catalog)</td><td></td></tr>
+                <tr><td>点位地址</td><td></td></tr>
+                <tr><td>平台唯一编码</td><td></td></tr>
+            </tbody>
+        </table>
+
+        <button id="btnSave" style="margin:30px; margin-left: auto; ">保存</button>
+    </div>
+</div>
+
+<script type="module" src="/manager/device/device.js"></script>

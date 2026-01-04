@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DataPlatform\\RGMqttClientService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|d:\\dataplatform\\rgmqttclientservice\\rgmqttclientservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|solutionrelative:rgmqttclientservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|d:\\dataplatform\\rgmqttclientservice\\rgmqttclientservice\\simulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|solutionrelative:rgmqttclientservice\\simulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|d:\\dataplatform\\rgmqttclientservice\\rgmqttclientservice\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|solutionrelative:rgmqttclientservice\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|d:\\dataplatform\\rgmqttclientservice\\rgmqttclientservice\\mqttclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|solutionrelative:rgmqttclientservice\\mqttclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|d:\\dataplatform\\rgmqttclientservice\\rgmqttclientservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|solutionrelative:rgmqttclientservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|d:\\dataplatform\\rgmqttclientservice\\rgmqttclientservice\\topicparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|solutionrelative:rgmqttclientservice\\topicparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|d:\\dataplatform\\rgmqttclientservice\\rgmqttclientservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|solutionrelative:rgmqttclientservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|d:\\dataplatform\\rgmqttclientservice\\rgmqttclientservice\\datamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72C1C6F-F93A-45CF-933A-EA59DE81B2F4}|RGMqttClientService\\RGMqttClientService.csproj|solutionrelative:rgmqttclientservice\\datamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataModels.cs",
+              "DocumentMoniker": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\DataModels.cs",
+              "RelativeDocumentMoniker": "RGMqttClientService\\DataModels.cs",
+              "ToolTip": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\DataModels.cs",
+              "RelativeToolTip": "RGMqttClientService\\DataModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T15:13:33.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\Worker.cs",
+              "RelativeDocumentMoniker": "RGMqttClientService\\Worker.cs",
+              "ToolTip": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\Worker.cs",
+              "RelativeToolTip": "RGMqttClientService\\Worker.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwBMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T14:03:39.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TopicParser.cs",
+              "DocumentMoniker": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\TopicParser.cs",
+              "RelativeDocumentMoniker": "RGMqttClientService\\TopicParser.cs",
+              "ToolTip": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\TopicParser.cs",
+              "RelativeToolTip": "RGMqttClientService\\TopicParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T14:03:38.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Simulator.cs",
+              "DocumentMoniker": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\Simulator.cs",
+              "RelativeDocumentMoniker": "RGMqttClientService\\Simulator.cs",
+              "ToolTip": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\Simulator.cs",
+              "RelativeToolTip": "RGMqttClientService\\Simulator.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAswHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T13:44:50.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RedisService.cs",
+              "DocumentMoniker": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\RedisService.cs",
+              "RelativeDocumentMoniker": "RGMqttClientService\\RedisService.cs",
+              "ToolTip": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\RedisService.cs",
+              "RelativeToolTip": "RGMqttClientService\\RedisService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvzUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T13:42:51.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MqttClientService.cs",
+              "DocumentMoniker": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\MqttClientService.cs",
+              "RelativeDocumentMoniker": "RGMqttClientService\\MqttClientService.cs",
+              "ToolTip": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\MqttClientService.cs",
+              "RelativeToolTip": "RGMqttClientService\\MqttClientService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T13:31:22.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\Program.cs",
+              "RelativeDocumentMoniker": "RGMqttClientService\\Program.cs",
+              "ToolTip": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\Program.cs",
+              "RelativeToolTip": "RGMqttClientService\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T13:28:53.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\appsettings.json",
+              "RelativeDocumentMoniker": "RGMqttClientService\\appsettings.json",
+              "ToolTip": "D:\\DataPlatform\\RGMqttClientService\\RGMqttClientService\\appsettings.json",
+              "RelativeToolTip": "RGMqttClientService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-04T13:28:22.783Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

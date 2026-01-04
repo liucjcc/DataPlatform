@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <title>PC 管理系统</title>
+    <link rel="stylesheet" href="./sidebar.css" />
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .app {
+            display: flex;
+            height: 100%;
+        }
+
+        .content {
+            flex: 1;
+            padding: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app">
+        <div id="sidebar-container"></div>
+        <main class="content">
+            主内容区域
+        </main>
+    </div>
+
+    <script type="module" src="./demo.js"></script>
+</body>
+</html>

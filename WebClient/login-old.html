@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+</head>
+<body>
+    <h2>Login</h2>
+
+    <div>
+        <input id="username" placeholder="username" value="admin">
+    </div>
+    <div>
+        <input id="password" type="password" placeholder="password" value="12345">
+    </div>
+
+    <button id="loginBtn">Login</button>
+
+    <p id="errMsg"></p>
+
+    <script type="module">
+        import initLogin from "./login.js";
+        var destroy = initLogin();
+    </script>
+
+</body>
+</html>

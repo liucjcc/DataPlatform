@@ -1,0 +1,42 @@
+.select-wrapper {
+    position: relative;
+    /*width: 160px;*/ /* 可以根据需要调整 */
+}
+
+/* 自定义下拉框 */
+.custom-select {
+    width: 100%;
+    padding: 6px 30px 6px 10px; /* 右边留出箭头空间 */
+    border: 2px solid red; /* 边框颜色红色 */
+    border-radius: 10px; /* 圆角10px */
+    background-color: #333; /* 背景深色 */
+    color: #fff; /* 文本白色 */
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-appearance: none; /* 去掉默认箭头 Chrome/Safari */
+    -moz-appearance: none; /* Firefox */
+    appearance: none; /* 其他浏览器 */
+}
+
+    /* 鼠标悬停 / 聚焦样式 */
+    .custom-select:hover {
+        border-color: darkred;
+    }
+
+    .custom-select:focus {
+        outline: none;
+        border-color: #ff4d4d;
+        box-shadow: 0 0 3px #ff4d4d;
+    }
+
+/* 自定义箭头 */
+.select-wrapper::after {
+    content: '▾'; /* 下箭头 */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* 箭头不挡点击 */
+    color: #fff; /* 箭头白色 */
+    font-size: 16px;
+}
