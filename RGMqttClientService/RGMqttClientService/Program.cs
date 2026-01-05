@@ -9,8 +9,8 @@ var builder = Host.CreateApplicationBuilder(args);
 builder.Services.AddSingleton<RedisService>(sp =>
 {
     var logger = sp.GetRequiredService<ILogger<RedisService>>();
+
     var redisService = new RedisService("localhost:6379", logger);
-    // 尝试检查连接
     try
     {
         if (!redisService.IsConnected)
