@@ -1,0 +1,96 @@
+/* ========================================
+   字体系统配置
+   Base: 16px, Scale: 1.25 (Perfect Fourth)
+   ======================================== */
+
+:root {
+    /* 可在这里定义字体变量 */
+    --text-xs: 0.75rem; /* 12px */
+    --text-sm: 0.875rem; /* 14px */
+    --text-base: 1rem; /* 16px */
+    --text-lg: 1.125rem; /* 18px */
+    --text-xl: 1.25rem; /* 20px */
+    --text-2xl: 1.5rem; /* 24px */
+    --text-3xl: 1.875rem; /* 30px */
+    --text-4xl: 2.25rem; /* 36px */
+    --text-5xl: 3rem; /* 48px */
+    --text-6xl: 3.75rem; /* 60px */
+    /* 行高 */
+    --leading-tight: 1.25;
+    --leading-normal: 1.5;
+    --leading-loose: 1.8;
+}
+
+/* 全局基础字体 */
+html {
+    font-size: 100%;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: var(--leading-normal);
+}
+
+/* 移动端适配：小屏幕缩小根字号 */
+@media (max-width: 375px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+/* 标题层级 */
+h1 {
+    font-size: var(--text-2xl);
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: var(--text-xl);
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: var(--text-xl);
+    line-height: var(--leading-tight);
+}
+
+p {
+    margin: 0 0 1em;
+    font-size: var(--text-base);
+}
+
+/* 文本辅助类（Utility Classes） */
+.text-xs {
+    font-size: var(--text-xs);
+}
+
+.text-sm {
+    font-size: var(--text-sm);
+}
+
+.text-base {
+    font-size: var(--text-base);
+}
+
+.text-lg {
+    font-size: var(--text-lg);
+}
+
+.text-xl {
+    font-size: var(--text-xl);
+}
+
+.lead {
+    font-size: var(--text-xl);
+    line-height: var(--leading-loose);
+    color: #666;
+}
+
+/* 流体标题（适用于首页大标题） */
+.hero-title {
+    font-size: clamp(1.875rem, 8vw, 4rem); /* 30px ~ 64px 动态调整 */
+    line-height: 1.2;
+}
+
+/* 强调文本 */
+.emphasis {
+    font-weight: 600;
+    color: #1a1a1a;
+}

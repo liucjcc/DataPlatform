@@ -1,107 +1,24 @@
-########################################
-# .NET / C# / ASP.NET Core / Worker
-########################################
-bin/
-obj/
-out/
-
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-
-########################################
-# Build / Publish
-########################################
-[Bb]uild/
-[Pp]ublish/
-*.dll
-*.exe
-*.pdb
-*.cache
-
-########################################
-# Logs / Runtime
-########################################
-logs/
+# Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-########################################
-# NuGet
-########################################
-.nuget/
-packages/
-*.nupkg
-*.snupkg
+node_modules
+dist
+dist-ssr
+*.local
 
-########################################
-# .NET tool artifacts
-########################################
-.dotnet/
-.dotnet-tools.json
-
-########################################
-# Rider / JetBrains
-########################################
-.idea/
-*.sln.iml
-*.DotSettings.user
-
-########################################
-# Visual Studio
-########################################
-.vs/
-
-########################################
-# VS Code
-########################################
-.vscode/
+# Editor directories and files
+.vscode/*
 !.vscode/extensions.json
-
-########################################
-# OS generated
-########################################
+.idea
 .DS_Store
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-########################################
-# Docker
-########################################
-**/docker-data/
-**/docker-volume/
-
-########################################
-# Environment / Secrets
-########################################
-.env
-.env.*
-secrets.json
-appsettings.*.json
-!appsettings.json
-
-########################################
-# Test Results
-########################################
-TestResults/
-*.trx
-*.coverage
-coverage/
-coverage.xml
-
-########################################
-# ReSharper
-########################################
-_ReSharper*/
-*.[Rr]e[Ss]harper
-*.DotSettings
-
-########################################
-# Misc
-########################################
-*.swp
-*.tmp
-*.bak
-*.old
-
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

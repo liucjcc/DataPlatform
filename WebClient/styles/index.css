@@ -1,0 +1,187 @@
+:root {
+    --nav-bg-hover: #004173;
+    --nav-bg-active: #0078c8;
+    --nav-text: #e5e7eb;
+    --nav-text-muted: #fff;
+    --nav-radius: 5px;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden; /* 禁止 window 滚动 */
+}
+
+#app {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+/*    border:5px solid blue;*/
+}
+
+#mainbody {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0;
+    
+}
+
+.page-header {
+    display: flex;
+    gap: 10px;
+
+    flex-direction: row;
+    border-bottom: 1px solid #ccc;
+    height:70px;
+    align-items:center;
+}
+
+.page-title {
+    margin:10px;
+}
+.page-info {
+    font-weight:normal;
+}
+
+/* 右侧内容区 */
+#page-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 0;
+}
+
+#subpage-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 0;
+}
+
+/* 左侧导航栏 */
+#sidebar {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    background-color: #242329;
+    border-right: 1px solid #ccc;
+    color: white;
+}
+
+    #sidebar .logo-container {
+        height: 70px;
+        overflow: hidden; /* 可选：控制溢出 */
+        display: flex;
+        flex-direction: row;
+        justify-content: center; /* 水平居中 */
+        align-items: center;
+    }
+
+        #sidebar .logo-container .logo-icon {
+            height: 60px;
+            width: 128px;
+            object-fit: contain;
+            flex: 0 0 auto;
+        }
+
+        #sidebar .logo-container .menu-icon {
+            height: 32px;
+            width: 32px;
+            flex: 0 0 auto;
+            margin-left:auto;
+            margin-right:10px;
+        }
+    
+
+    #sidebar .section-title {
+        padding: 10px;
+        background-color: #3A393F;
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
+
+    #sidebar .nav-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        padding:10px;
+    }
+
+/*    #sidebar .content-title {
+        list-style: none;
+        padding: 10px;
+    }*/
+
+    #sidebar .content-body {
+        flex: 1; /*占据所有可用空间 */
+        min-height: 0; /*重要：允许内容溢出并滚动 */
+        display: flex;
+        flex-direction: column;
+    }
+        /* device-list 填满剩余空间 */
+        #sidebar .content-body ul {
+            flex: 1;
+            overflow-y: auto;
+            list-style: none;
+            padding: 10px;
+            margin: 0;
+        }
+
+    #sidebar .bottom {
+        height: 60px;
+        flex-shrink: 0; /* 防止被压缩 */
+        background: #4B5866;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #sidebar .nav-item {
+        display: flex;
+        align-items: center;
+        padding: 7px 15px;
+        margin-bottom: 4px;
+        border-radius: var(--nav-radius);
+        text-decoration: none;
+        color: var(--nav-text-muted);
+        background: transparent;
+        cursor: pointer;
+        user-select: none;
+        transition: background-color 0.15s ease, color 0.15s ease;
+    }
+
+        #sidebar .nav-item:hover {
+            background-color: var(--nav-bg-hover);
+        }
+
+        #sidebar .nav-item.active {
+            background-color: var(--nav-bg-active);
+            color: var(--nav-text);
+        }
+
+        #sidebar .nav-item:focus-visible {
+            outline: none;
+            background-color: var(--nav-bg-hover);
+        }
+
+        #sidebar .nav-item .title {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+button  {
+    color: white;
+    background-color: #0078C8;
+    padding: 2px 10px;
+    min-width: 80px;
+    border:none;
+    border-radius: 5px;
+    height:2.5em;
+}
+    button:hover {
+        background-color: #003C64;
+    }
