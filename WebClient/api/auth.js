@@ -32,6 +32,7 @@ export async function login(username, password) {
 }
 
 export async function me() {
+    console.log("me():", getAccessToken());
     const result = await request.get('/api/Auth/me');
     console.log("me:", result);
     return result;

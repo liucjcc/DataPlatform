@@ -1,4 +1,4 @@
-﻿// manager.js
+// manager.js
 // 管理端入口逻辑
 
 const API_BASE = "http://localhost:5000/api/admin"; // 替换成你的 WebAPI 地址

@@ -11,7 +11,7 @@ export class JsonModal {
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <h3> 原始JSON数据查看器 </h3>
-                <div class="jsoneditor-container" style="height:400px;"></div>
+                <div class="jsoneditor-container"></div>
             </div>
         `;
         document.body.appendChild(this.modal);

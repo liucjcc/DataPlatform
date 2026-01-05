@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\api",
-    "\\core",
-    "\\pages",
-    "\\pages\\login"
+    "\\components",
+    "\\components\\jsonModal",
+    "\\components\\modbus",
+    "\\manager",
+    "\\manager\\device",
+    "\\styles"
   ],
+  "SelectedNode": "\\components\\modbus\\modbus.js",
   "PreviewInSolutionExplorer": false
 }

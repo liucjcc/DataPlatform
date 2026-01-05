@@ -6,6 +6,8 @@ export const routes = {
     '/device/view': '/manager/device/config.html?mode=view',
     '/device/edit': '/manager/device/config.html?mode=edit',
 
+    '/device/modbus': '/manager/device/modbus.html?mode=edit',
+
     '/user': '/manager/user/default.html',
     '/user/add': '/manager/user/config.html?mode=add',
     '/user/view': '/manager/user/config.html?mode=view',

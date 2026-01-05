@@ -11,16 +11,16 @@
 }
 
 .json-modal .modal-content {
-  background-color: #eee;
-  margin: 5% auto;
-  padding: 20px;
-  border-radius: 8px;
-  width: 70%;
-  max-width: 900px;
-  color: #333;
-  max-height: 80vh;       /* 最大高度为视口 80% */
-  overflow-y: auto;       /* 超出内容滚动 */
-  outline: 2px solid darkgray;  /* 看实际元素高度 */
+    background-color: #eee;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 70%;
+    max-width: 900px;
+    color: #333;
+    max-height: 80vh; /* 最大高度为视口 80% */
+    overflow-y: auto; /* 超出内容滚动 */
+    outline: 2px solid darkgray; /* 看实际元素高度 */
 }
 
 .json-modal .close {

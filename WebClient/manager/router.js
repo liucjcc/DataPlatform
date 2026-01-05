@@ -1,6 +1,7 @@
 import { routes } from './routes.js';
 
 import { initDeviceDefaultPage, loadDeviceConfigPage } from '/manager/device/device.js';
+import { loadModbusConfigPage } from '/manager/device/modbus.js';
 import { initUserDefaultPage, initUserConfigPage} from '/manager/user/user.js';
 
 // 获取 app 容器
@@ -58,12 +59,16 @@ export async function router() {
     if (url.includes('/manager/device/config.html')) {
         console.log('params:', params);
         loadDeviceConfigPage(mode, params.deviceId);
-
-    } else if (url.includes('/manager/device/default.html')) {
+    }
+    else if (url.includes('/manager/device/modbus.html')) {
+        console.log('params:', params);
+        loadModbusConfigPage();
+    }
+    else if (url.includes('/manager/device/default.html')) {
 
         initDeviceDefaultPage();
-
-    } else if (url.includes('/manager/user/config.html')) {
+    }
+    else if (url.includes('/manager/user/config.html')) {
 
         initUserConfigPage(mode);
 

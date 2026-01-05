@@ -130,16 +130,13 @@ function renderDeviceTable(container, data, columns = 4) {
 
     // 创建表格
     const table = document.createElement('table');
-    //table.style.width = '700px';
-    //table.style.margin = '0 auto';
-    //table.style.borderCollapse = 'collapse';
     table.className = 'data-table';
 
     // 表头
     const thead = document.createElement('thead');
     const headerRow = document.createElement('tr');
 
-    const headers = ['Device ID', 'Device Name', 'Last Online', 'Status', '操作'];
+    const headers = ['设备ID', '点位名称', '上次在线', '状态', '操作'];
     headers.forEach(text => {
         const th = document.createElement('th');
         th.innerText = text;
@@ -161,21 +158,17 @@ function renderDeviceTable(container, data, columns = 4) {
             device.deviceId,
             device.deviceName,
             new Date(device.lastOnlineTime).toLocaleString(),
-            device.status ? 'Online' : 'Offline'
+            device.status ? '在线' : '离线'
         ];
         cells.forEach(text => {
             const td = document.createElement('td');
             td.innerText = text;
-            td.style.border = '1px solid #ccc';
-            td.style.padding = '8px';
             td.style.textAlign = 'center';
             row.appendChild(td);
         });
 
         // 操作列
         const opTd = document.createElement('td');
-        opTd.style.border = '1px solid #ccc';
-        opTd.style.padding = '8px';
         opTd.style.textAlign = 'center';
 
         // 编辑按钮
@@ -183,7 +176,6 @@ function renderDeviceTable(container, data, columns = 4) {
         editBtn.innerText = '编辑';
         editBtn.style.marginRight = '5px';
         editBtn.onclick = () => {
-            // 调用你定义的编辑函数
             onEditDevice(device.deviceId);
         };
 
@@ -191,21 +183,26 @@ function renderDeviceTable(container, data, columns = 4) {
         const delBtn = document.createElement('button');
         delBtn.innerText = '删除';
         delBtn.onclick = () => {
-            // 调用你定义的删除函数
             onDeleteDevice(device.deviceId);
         };
 
         // 最后数据
         const latestBtn = document.createElement('button');
-        latestBtn.innerText = 'LATEST';
+        latestBtn.innerText = '最后数据';
         latestBtn.onclick = () => {
-            // 调用你定义的删除函数
             onLatestData(device.deviceId);
+        };
+        // 通讯协议
+        const modbusBtn = document.createElement('button');
+        modbusBtn.innerText = '通讯协议';
+        modbusBtn.onclick = () => {
+            onModbusConfig(device.deviceId);
         };
 
         opTd.appendChild(editBtn);
         opTd.appendChild(delBtn);
         opTd.appendChild(latestBtn);
+        opTd.appendChild(modbusBtn);
 
         row.appendChild(opTd);
 
@@ -260,5 +257,9 @@ function onLatestData(deviceId) {
             alert('查询失败: ' + result.error);
         }
     });
+}
+
+function onModbusConfig(deviceId) {
+    location.hash = `#/device/modbus?deviceId=${deviceId}`;
 }
 
