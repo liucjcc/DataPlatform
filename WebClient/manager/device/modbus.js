@@ -1,12 +1,13 @@
 // JavaScript source code
 import { JsonModal } from '/components/jsonModal/jsonModal.js';
 import '/components/jsonModal/jsonModal.css';
-import { ModbusRegisterConfigurator } from '/components/modbus/modbus.js';
-
+//import { ModbusRegisterConfigurator } from '/components/modbus/modbus.js';
+import { ModbusConfigEditor } from '/components/modbus/modbusConfigEditor.js'
+import '/components/modbus/modbusConfigEditor.css';
 const jsonModal = new JsonModal();
 export function loadModbusConfigPage() {
 
-    const protocol = {
+    const modbusConfigJson = {
         "protocol_version": "1.0",
         "data_types": {
             "bit": { "size": 1, "signed": false },
@@ -23,18 +24,20 @@ export function loadModbusConfigPage() {
         "byte_order_presets": { "default": "ABCD" }
     }
 
-    const configurator = new ModbusRegisterConfigurator('modbus-config', protocol);
+    //const configurator = new ModbusRegisterConfigurator('modbus-config', protocol);
+    const editor = new ModbusConfigEditor(
+        document.getElementById( 'modbus-editor'),
+        modbusConfigJson);
 
-    const btnAdd = document.createElement('btnAddRegister');
-    document.addEventListener('click', (e) => {
-        if (e.target.id == 'btnAddRegister') {
-            configurator.addRegister();
-        } else if (e.target.id == 'btnPrintConfig') {
-            try {
-                const jsonData = configurator.exportConfig();
-                jsonModal.show(jsonData);
-            } catch (e) {
-            }
+    const topBox = document.getElementById('topBox');
+
+    topBox.addEventListener('click', (e) => {
+        if (e.target.id === 'btnAddRegister') {
+            editor.addRegister();
+        }
+        if (e.target.id === 'btnPrintConfig') {
+            const json = configurator.exportConfig();
+            jsonModal.show(json);
         }
     });
 }

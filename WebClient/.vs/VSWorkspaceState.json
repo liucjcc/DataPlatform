@@ -6,8 +6,9 @@
     "\\components\\modbus",
     "\\manager",
     "\\manager\\device",
+    "\\manager\\user",
     "\\styles"
   ],
-  "SelectedNode": "\\components\\modbus\\modbus.js",
+  "SelectedNode": "\\components\\modbus\\modbusConfigEditor.js",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,37 @@
+.modbus-modal {
+    position: fixed; /* 固定整个视口 */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+    .modbus-modal.hidden {
+        display: none;
+    }
+
+/* 蒙板 */
+.modbus-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 0;
+}
+
+/* 对话框 */
+.modbus-dialog {
+    position: relative;
+    z-index: 1; /* 高于 mask */
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    min-width: 360px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}

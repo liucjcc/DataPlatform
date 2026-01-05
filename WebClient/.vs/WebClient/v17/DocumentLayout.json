@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\platform.git\\WebClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\components\\modbus\\modbus.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\modbus\\modbus.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\components\\modbus\\modbusConfigEditor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\modbus\\modbusConfigEditor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\components\\jsonModal\\jsonModal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\jsonModal\\jsonModal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\components\\jsonModal\\jsonModal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\jsonModal\\jsonModal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\components\\modbus\\modbusConfigEditor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\modbus\\modbusConfigEditor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\manager\\device\\modbus.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -23,26 +19,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:manager\\device\\modbus.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\manager\\device\\default.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:manager\\device\\default.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\styles\\manager.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles\\manager.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\manager\\device\\device.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:manager\\device\\device.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\components\\modbus\\demo.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\modbus\\demo.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\manager\\device\\config.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:manager\\device\\config.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\manager\\routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:manager\\routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -51,8 +27,44 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:manager\\router.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\manager\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:manager\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\admin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:admin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\manager\\device\\config.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:manager\\device\\config.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\manager\\device\\default.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:manager\\device\\default.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\manager\\device\\device.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:manager\\device\\device.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\components\\jsonModal\\jsonModal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\jsonModal\\jsonModal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\components\\jsonModal\\jsonModal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\jsonModal\\jsonModal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\components\\modbus\\modbus.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\modbus\\modbus.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\styles\\manager.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles\\manager.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\components\\modbus\\demo.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\modbus\\demo.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -61,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\api\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\manager\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:manager\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\platform.git\\WebClient\\config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -86,24 +94,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "manager.css",
-              "DocumentMoniker": "D:\\platform.git\\WebClient\\styles\\manager.css",
-              "RelativeDocumentMoniker": "styles\\manager.css",
-              "ToolTip": "D:\\platform.git\\WebClient\\styles\\manager.css",
-              "RelativeToolTip": "styles\\manager.css",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "modbusConfigEditor.css",
+              "DocumentMoniker": "D:\\platform.git\\WebClient\\components\\modbus\\modbusConfigEditor.css",
+              "RelativeDocumentMoniker": "components\\modbus\\modbusConfigEditor.css",
+              "ToolTip": "D:\\platform.git\\WebClient\\components\\modbus\\modbusConfigEditor.css",
+              "RelativeToolTip": "components\\modbus\\modbusConfigEditor.css",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-05T15:23:12.376Z",
+              "WhenOpened": "2026-01-05T16:18:44.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "modbusConfigEditor.js",
+              "DocumentMoniker": "D:\\platform.git\\WebClient\\components\\modbus\\modbusConfigEditor.js",
+              "RelativeDocumentMoniker": "components\\modbus\\modbusConfigEditor.js",
+              "ToolTip": "D:\\platform.git\\WebClient\\components\\modbus\\modbusConfigEditor.js",
+              "RelativeToolTip": "components\\modbus\\modbusConfigEditor.js",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAwJYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-05T16:11:13.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "config.html",
+              "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\device\\config.html",
+              "RelativeDocumentMoniker": "manager\\device\\config.html",
+              "ToolTip": "D:\\platform.git\\WebClient\\manager\\device\\config.html",
+              "RelativeToolTip": "manager\\device\\config.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-05T14:30:22.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "jsonModal.css",
+              "DocumentMoniker": "D:\\platform.git\\WebClient\\components\\jsonModal\\jsonModal.css",
+              "RelativeDocumentMoniker": "components\\jsonModal\\jsonModal.css",
+              "ToolTip": "D:\\platform.git\\WebClient\\components\\jsonModal\\jsonModal.css",
+              "RelativeToolTip": "components\\jsonModal\\jsonModal.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-05T13:40:53.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "modbus.html",
+              "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\device\\modbus.html",
+              "RelativeDocumentMoniker": "manager\\device\\modbus.html",
+              "ToolTip": "D:\\platform.git\\WebClient\\manager\\device\\modbus.html",
+              "RelativeToolTip": "manager\\device\\modbus.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-05T12:41:12.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "modbus.js",
+              "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\device\\modbus.js",
+              "RelativeDocumentMoniker": "manager\\device\\modbus.js",
+              "ToolTip": "D:\\platform.git\\WebClient\\manager\\device\\modbus.js",
+              "RelativeToolTip": "manager\\device\\modbus.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-05T12:40:55.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "device.js",
+              "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\device\\device.js",
+              "RelativeDocumentMoniker": "manager\\device\\device.js",
+              "ToolTip": "D:\\platform.git\\WebClient\\manager\\device\\device.js",
+              "RelativeToolTip": "manager\\device\\device.js",
+              "ViewState": "AgIAALcAAAAAAAAAAAAUwL8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-05T12:31:35.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "router.js",
+              "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\router.js",
+              "RelativeDocumentMoniker": "manager\\router.js",
+              "ToolTip": "D:\\platform.git\\WebClient\\manager\\router.js",
+              "RelativeToolTip": "manager\\router.js",
+              "ViewState": "AgIAADsAAAAAAAAAAADwvwUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-05T12:23:26.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "default.html",
+              "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\device\\default.html",
+              "RelativeDocumentMoniker": "manager\\device\\default.html",
+              "ToolTip": "D:\\platform.git\\WebClient\\manager\\device\\default.html",
+              "RelativeToolTip": "manager\\device\\default.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-05T12:31:32.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "main.js",
+              "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\main.js",
+              "RelativeDocumentMoniker": "manager\\main.js",
+              "ToolTip": "D:\\platform.git\\WebClient\\manager\\main.js",
+              "RelativeToolTip": "manager\\main.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-05T12:27:51.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "admin.html",
+              "DocumentMoniker": "D:\\platform.git\\WebClient\\admin.html",
+              "RelativeDocumentMoniker": "admin.html",
+              "ToolTip": "D:\\platform.git\\WebClient\\admin.html",
+              "RelativeToolTip": "admin.html",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-05T12:26:39.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "routes.js",
               "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\routes.js",
               "RelativeDocumentMoniker": "manager\\routes.js",
@@ -116,46 +254,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "config.html",
-              "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\device\\config.html",
-              "RelativeDocumentMoniker": "manager\\device\\config.html",
-              "ToolTip": "D:\\platform.git\\WebClient\\manager\\device\\config.html",
-              "RelativeToolTip": "manager\\device\\config.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-01-05T14:30:22.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "jsonModal.css",
-              "DocumentMoniker": "D:\\platform.git\\WebClient\\components\\jsonModal\\jsonModal.css",
-              "RelativeDocumentMoniker": "components\\jsonModal\\jsonModal.css",
-              "ToolTip": "D:\\platform.git\\WebClient\\components\\jsonModal\\jsonModal.css",
-              "RelativeToolTip": "components\\jsonModal\\jsonModal.css",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-05T13:40:53.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "jsonModal.js",
               "DocumentMoniker": "D:\\platform.git\\WebClient\\components\\jsonModal\\jsonModal.js",
               "RelativeDocumentMoniker": "components\\jsonModal\\jsonModal.js",
               "ToolTip": "D:\\platform.git\\WebClient\\components\\jsonModal\\jsonModal.js",
               "RelativeToolTip": "components\\jsonModal\\jsonModal.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-01-05T13:40:52.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
+              "Title": "modbus.js",
+              "DocumentMoniker": "D:\\platform.git\\WebClient\\components\\modbus\\modbus.js",
+              "RelativeDocumentMoniker": "components\\modbus\\modbus.js",
+              "ToolTip": "D:\\platform.git\\WebClient\\components\\modbus\\modbus.js",
+              "RelativeToolTip": "components\\modbus\\modbus.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-05T13:18:20.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "demo.html",
               "DocumentMoniker": "D:\\platform.git\\WebClient\\components\\modbus\\demo.html",
               "RelativeDocumentMoniker": "components\\modbus\\demo.html",
@@ -163,77 +288,23 @@
               "RelativeToolTip": "components\\modbus\\demo.html",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAEkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-01-05T13:19:20.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "modbus.js",
-              "DocumentMoniker": "D:\\platform.git\\WebClient\\components\\modbus\\modbus.js",
-              "RelativeDocumentMoniker": "components\\modbus\\modbus.js",
-              "ToolTip": "D:\\platform.git\\WebClient\\components\\modbus\\modbus.js",
-              "RelativeToolTip": "components\\modbus\\modbus.js",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwCEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-05T13:18:20.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "modbus.html",
-              "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\device\\modbus.html",
-              "RelativeDocumentMoniker": "manager\\device\\modbus.html",
-              "ToolTip": "D:\\platform.git\\WebClient\\manager\\device\\modbus.html",
-              "RelativeToolTip": "manager\\device\\modbus.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-01-05T12:41:12.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "modbus.js",
-              "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\device\\modbus.js",
-              "RelativeDocumentMoniker": "manager\\device\\modbus.js",
-              "ToolTip": "D:\\platform.git\\WebClient\\manager\\device\\modbus.js",
-              "RelativeToolTip": "manager\\device\\modbus.js",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvyAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-05T12:40:55.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "device.js",
-              "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\device\\device.js",
-              "RelativeDocumentMoniker": "manager\\device\\device.js",
-              "ToolTip": "D:\\platform.git\\WebClient\\manager\\device\\device.js",
-              "RelativeToolTip": "manager\\device\\device.js",
-              "ViewState": "AgIAANsAAAAAAAAAAAAowPAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-05T12:31:35.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "default.html",
-              "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\device\\default.html",
-              "RelativeDocumentMoniker": "manager\\device\\default.html",
-              "ToolTip": "D:\\platform.git\\WebClient\\manager\\device\\default.html",
-              "RelativeToolTip": "manager\\device\\default.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-01-05T12:31:32.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T13:19:20.488Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "manager.css",
+              "DocumentMoniker": "D:\\platform.git\\WebClient\\styles\\manager.css",
+              "RelativeDocumentMoniker": "styles\\manager.css",
+              "ToolTip": "D:\\platform.git\\WebClient\\styles\\manager.css",
+              "RelativeToolTip": "styles\\manager.css",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-05T15:23:12.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "auth.js",
               "DocumentMoniker": "D:\\platform.git\\WebClient\\api\\auth.js",
               "RelativeDocumentMoniker": "api\\auth.js",
@@ -241,51 +312,11 @@
               "RelativeToolTip": "api\\auth.js",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-05T12:28:58.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T12:28:58.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "admin.html",
-              "DocumentMoniker": "D:\\platform.git\\WebClient\\admin.html",
-              "RelativeDocumentMoniker": "admin.html",
-              "ToolTip": "D:\\platform.git\\WebClient\\admin.html",
-              "RelativeToolTip": "admin.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-01-05T12:26:39.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "router.js",
-              "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\router.js",
-              "RelativeDocumentMoniker": "manager\\router.js",
-              "ToolTip": "D:\\platform.git\\WebClient\\manager\\router.js",
-              "RelativeToolTip": "manager\\router.js",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-05T12:23:26.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "main.js",
-              "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\main.js",
-              "RelativeDocumentMoniker": "manager\\main.js",
-              "ToolTip": "D:\\platform.git\\WebClient\\manager\\main.js",
-              "RelativeToolTip": "manager\\main.js",
-              "ViewState": "AgIAAB0AAAAAAAAAAADwvyUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-05T12:27:51.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "config.js",
               "DocumentMoniker": "D:\\platform.git\\WebClient\\config.js",
               "RelativeDocumentMoniker": "config.js",
@@ -293,12 +324,11 @@
               "RelativeToolTip": "config.js",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-05T12:26:38.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T12:26:38.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "index.html",
               "DocumentMoniker": "D:\\platform.git\\WebClient\\index.html",
               "RelativeDocumentMoniker": "index.html",
@@ -306,12 +336,11 @@
               "RelativeToolTip": "index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-01-05T12:26:33.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T12:26:33.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\platform.git\\WebClient\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -319,12 +348,11 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-01-05T12:27:01.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T12:27:01.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "manager.js",
               "DocumentMoniker": "D:\\platform.git\\WebClient\\manager\\manager.js",
               "RelativeDocumentMoniker": "manager\\manager.js",
@@ -332,8 +360,7 @@
               "RelativeToolTip": "manager\\manager.js",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-05T12:23:50.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T12:23:50.858Z"
             }
           ]
         }

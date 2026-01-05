@@ -2,7 +2,8 @@ import { routes } from './routes.js';
 
 import { initDeviceDefaultPage, loadDeviceConfigPage } from '/manager/device/device.js';
 import { loadModbusConfigPage } from '/manager/device/modbus.js';
-import { initUserDefaultPage, initUserConfigPage} from '/manager/user/user.js';
+import { initUserDefaultPage, initUserConfigPage } from '/manager/user/user.js';
+
 
 // 获取 app 容器
 const app = document.getElementById('app');
