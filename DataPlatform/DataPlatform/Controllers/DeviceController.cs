@@ -25,6 +25,7 @@ namespace DataPlatform.Controllers
 
         [HttpGet("list")]
         [Authorize(Roles = "Admin,Manager")]
+        [Authorize]
         public async Task<IActionResult> GetAllDevice()
         {
             try

@@ -55,6 +55,8 @@ builder.Services.AddDbContextFactory<AppDbContext>(options =>
 });
 builder.Services.AddScoped<DeviceRepository>();
 
+builder.WebHost.UseUrls("https://0.0.0.0:7136"); // 所有网卡
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
