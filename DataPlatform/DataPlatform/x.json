@@ -1,0 +1,43 @@
+{
+  "device_id": "cn5a73e414007bf7205ba7c1c5_snW13119",
+  "filter_id": "BD00002637", //滤膜编号
+  "filter_sampling": {
+    "ambient_humid": 683, //相对湿度(%),要除于10
+    "ambient_press": 9845, //大气压(hpa),要除于10
+    "ambient_temp": 243, //环境温度(°C),要除于10
+    "filter_index": 0,
+    "filter_press": 282, //膜压(hpa),要除于10
+    "filter_sampling_temp": 999, //滤膜采样处温度(°C),要除于10
+    "filter_store_temp": 999, //空调室/滤膜存储处温度(°C),要除于10
+    "flowrate": 999, //工况流量(m3/h),要除于1000
+    "flowrate_n": 891, //标况流量(m3/h),要除于1000
+    "gps_latitude": "30.48662", //GPS-经度
+    "gps_longitude": "106.63496", //GPS-纬度
+    "interrupt_second": 0, //采样中断时间（秒）
+    "nominal_condition": 3, //当前采样任务总滤膜数
+    "orifice_temp": 258,
+    "pump_run_minutes": 25564,
+    "pump_speed": 261,
+    "sampling_device_sn": "cn5a73e414007bf7205ba7c1c5_snW13119", //仪器序列号
+    "sampling_device_type": "LVS(2017)", //仪器型号
+    "sampling_id": "969b799b42086f59", //唯一标识一个采样
+    "sampling_plan_index": 0, //当前采样周期索引
+    "sampling_plan_num": 1, //当前采样任务总滤膜数
+    "sampling_start_timestamp": 1569290406, //采样开始时间
+    "sampling_stop_timestamp": 0, //采样结束时间
+    "sampling_type": 0,
+    "task_id": "87f4008d43f43434",
+    "volume": 4997, //工况体积(m3),要除于1000
+    "volume_n": 4456 //标况体积(m3),要除于1000
+  },
+  "filter_type": 2,
+  "key": "191006f4ae34fcac39f778b8510ccf3e",
+  "Mark": 1,
+  "timestamp": 1653629624257,
+  "creating_timestamp": 1653629624257,
+
+  "uploading_timestamp": 1653629624257,
+  "数据上传时间",
+  "直接转换时间存todo"
+
+}
