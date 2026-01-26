@@ -1,0 +1,38 @@
+
+docker ps -a
+
+# 1. 停止当前容器
+docker stop redis
+
+# 2. 重命名当前容器
+docker rename redis redis_old
+
+# 删除名为 redis 的容器
+docker rm redis
+
+# 删除名为 my-redis 的容器  
+docker rm my-redis
+
+# 或者用一行命令删除两个
+docker rm redis my-redis
+
+删除后，你可以重新启动 Redis：
+# 简单启动
+docker run -d --name redis redis:latest
+
+# 或带端口映射和持久化
+docker run -d \
+  --name redis \
+  -p 6379:6379 \
+  -v redis_data:/data \
+  redis:alpine \
+  redis-server --appendonly yes
+  
+  
+进入 Redis CLI
+bash
+# 在新的 PowerShell 窗口中执行
+docker run -d \
+  --name redis \
+  -p 6379:6379 \
+  redis:latest
