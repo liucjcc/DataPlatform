@@ -208,12 +208,8 @@ namespace RGMqttClientService
         private async Task SubscribeAsync()
         {
             var up = $"{_topicRoot}/+/+/+/up/+";
-            var down = $"{_topicRoot}/+/+/+/down/+";
-
             await _client.SubscribeAsync(up, MqttQualityOfServiceLevel.AtLeastOnce);
-            await _client.SubscribeAsync(down, MqttQualityOfServiceLevel.AtLeastOnce);
-
-            _logger.LogInformation("Subscribed: {Up}, {Down}", up, down);
+            _logger.LogInformation("Subscribed: {Up}", up);
         }
     }
 }
