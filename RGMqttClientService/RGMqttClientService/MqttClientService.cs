@@ -37,8 +37,11 @@ namespace RGMqttClientService
             _options = new MqttClientOptionsBuilder()
                 .WithClientId(_config["Mqtt:ClientId"] ?? "mqtt-client-service")
                 .WithTcpServer(
-                    _config["Mqtt:BrokerHost"],
-                    int.Parse(_config["Mqtt:BrokerPort"]))
+                _config["Mqtt:BrokerHost"],
+                int.Parse(_config["Mqtt:BrokerPort"]))
+                  .WithCredentials(
+                _config["Mqtt:Username"],
+                _config["Mqtt:Password"])
                 .WithKeepAlivePeriod(TimeSpan.FromSeconds(30))
                 .WithCleanSession()
                 .Build();
