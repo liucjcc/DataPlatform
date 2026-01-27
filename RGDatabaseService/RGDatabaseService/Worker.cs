@@ -60,6 +60,7 @@ public class Worker : BackgroundService
                 switch (msg.Function)
                 {
                     case "data":
+                    case "cnemc":
                     case "status":
                     case "alert":
                         await _dbService.SaveDeviceDataAsync(

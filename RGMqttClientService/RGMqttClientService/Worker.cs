@@ -17,16 +17,16 @@ namespace RGMqttClientService
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             // 启动测试模拟器
-            var simulator = new CommandTestSimulator(_redis);
-            _ = simulator.StartAsync(stoppingToken);
-            _ = simulator.ConsumeAckStreamAsync(stoppingToken);
+            //var simulator = new CommandTestSimulator(_redis);
+            //_ = simulator.StartAsync(stoppingToken);
+            //_ = simulator.ConsumeAckStreamAsync(stoppingToken);
 
             while (!stoppingToken.IsCancellationRequested)
             {
-                if (_logger.IsEnabled(LogLevel.Information))
-                {
-                    _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
-                }
+                //if (_logger.IsEnabled(LogLevel.Information))
+                //{
+                //    _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
+                //}
                 await Task.Delay(1000, stoppingToken);
             }
         }

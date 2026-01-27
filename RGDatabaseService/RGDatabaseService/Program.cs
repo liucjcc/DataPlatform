@@ -7,6 +7,11 @@ var builder = Host.CreateApplicationBuilder(args);
 
 try
 {
+    // ==== 全局日志配置 ====
+    builder.Logging.ClearProviders();       // 清除默认日志提供器
+    builder.Logging.AddConsole();            // 控制台输出
+    builder.Logging.AddFilter(level => level >= LogLevel.Warning); // 全局只显示 Warning/ Error
+
     // 配置数据库上下文工厂（使用 SQL Server）
     builder.Services.AddDbContextFactory<AppDbContext>(options =>
     {

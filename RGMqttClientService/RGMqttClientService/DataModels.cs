@@ -16,6 +16,17 @@ namespace RGMqttClientService
         public string Direction { get; set; } // up/down
         public string Function { get; set; }
     }
+
+    public class DeviceTelemetry
+    {
+        public string DeviceId { get; set; } = string.Empty;
+        public string Owner { get; set; } = string.Empty;
+        public string Catalog { get; set; } = string.Empty;
+        public string Function { get; set; } = string.Empty;
+        public string Payload { get; set; } = string.Empty;
+        public DateTime Timestamp { get; set; } = DateTime.UtcNow;
+    }
+
     public class DeviceCommand
     {
         public string CommandId { get; set; }      // 唯一命令ID

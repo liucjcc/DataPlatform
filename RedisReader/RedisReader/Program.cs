@@ -89,5 +89,7 @@ class Program
     {
         var inspector = new RedisCommandInspector("localhost:6379");
         inspector.Inspect();
+        Console.WriteLine("按回车键退出...");
+        Console.ReadLine();  // 等待用户输入回车
     }
 }

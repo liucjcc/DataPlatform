@@ -13,7 +13,7 @@ namespace RGMqttClientService
         private const string CmdAckStreamKey = "stream:device:cmd:ack";
         private const string TelemetryStreamKey = "stream:device:telemetry";
         private const int CmdAckMaxLength = 1000;
-        private const int TelemetryMaxLength = 10 * 1000;
+        private const int TelemetryMaxLength = 1_000_000;
 
         private readonly string _connectionString;
         private readonly ILogger<RedisService> _logger;
@@ -88,6 +88,28 @@ namespace RGMqttClientService
         }
 
         public bool IsConnected => _redis?.IsConnected ?? false;
+
+        public async Task SetDeviceTelemetryAsync(DeviceTelemetry telemetry)
+        {
+            // Key = device:{DeviceId}:{Function}
+            var key = $"device:{telemetry.DeviceId}:{telemetry.Function}";
+
+            // 序列化对象为 JSON
+            var value = JsonSerializer.Serialize(telemetry);
+
+            // 写入 Redis
+            await _db.StringSetAsync(key, value);
+        }
+
+        public async Task<DeviceTelemetry?> GetDeviceTelemetryAsync(string deviceId, string function)
+        {
+            var key = $"device:{deviceId}:{function}";
+            var value = await _db.StringGetAsync(key);
+
+            if (value.IsNullOrEmpty) return null;
+
+            return JsonSerializer.Deserialize<DeviceTelemetry>(value);
+        }
 
         // =========================
         // Telemetry

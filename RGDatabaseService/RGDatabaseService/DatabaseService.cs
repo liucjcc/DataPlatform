@@ -12,17 +12,26 @@ namespace RGDatabaseService
 
         public DbSet<DeviceConfigEntity> DeviceList { get; set; }
         public DbSet<DeviceDataEntity> DeviceData { get; set; }
+        public DbSet<CnemcDataEntity> CnemcData { get; set; }
         public DbSet<MqttMessageEntity> DeviceDataQueue { get; set; }
         public DbSet<DeviceCommandEntity> DeviceCommand { get; set; }
+
+        
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<DeviceConfigEntity>().ToTable("DeviceConfig");
             modelBuilder.Entity<DeviceDataEntity>().ToTable("DeviceData");
+            modelBuilder.Entity<CnemcDataEntity>().ToTable("CnemcData");
             modelBuilder.Entity<MqttMessageEntity>().ToTable("MqttMessageQueue");
             modelBuilder.Entity<DeviceCommandEntity>().ToTable("DeviceCommand");
 
             modelBuilder.Entity<DeviceDataEntity>( entity => {
+                entity.HasKey(e => e.Id);
+                entity.HasIndex(d => new { d.DeviceId, d.Timestamp });
+            });
+
+            modelBuilder.Entity<CnemcDataEntity>(entity => {
                 entity.HasKey(e => e.Id);
                 entity.HasIndex(d => new { d.DeviceId, d.Timestamp });
             });
@@ -61,17 +70,29 @@ namespace RGDatabaseService
             try
             {
                 await using var db = await _dbFactory.CreateDbContextAsync();
-
-                db.DeviceData.Add(new DeviceDataEntity
+                if (functionType == "data")
                 {
-                    Owner = owner,
-                    Catalog = catalog,
-                    DeviceId = deviceId,
-                    Function = functionType,
-                    Payload = payload,
-                    Timestamp = DateTime.UtcNow
-                });
-
+                    db.DeviceData.Add(new DeviceDataEntity
+                    {
+                        Owner = owner,
+                        Catalog = catalog,
+                        DeviceId = deviceId,
+                        Function = functionType,
+                        Payload = payload,
+                        Timestamp = DateTime.UtcNow
+                    });
+                }
+                else if (functionType == "cnemc") {
+                    db.CnemcData.Add(new CnemcDataEntity
+                    {
+                        Owner = owner,
+                        Catalog = catalog,
+                        DeviceId = deviceId,
+                        Function = functionType,
+                        Payload = payload,
+                        Timestamp = DateTime.UtcNow
+                    });
+                }
                 await db.SaveChangesAsync();
             }
             catch (Exception ex)
