@@ -10,17 +10,18 @@ namespace RGDatabaseService
         public AppDbContext(DbContextOptions<AppDbContext> options) 
             : base(options) { }
 
-        public DbSet<DeviceConfigEntity> DeviceList { get; set; }
+        public DbSet<DeviceEntity> DeviceList { get; set; }
         public DbSet<DeviceDataEntity> DeviceData { get; set; }
         public DbSet<CnemcDataEntity> CnemcData { get; set; }
         public DbSet<MqttMessageEntity> DeviceDataQueue { get; set; }
         public DbSet<DeviceCommandEntity> DeviceCommand { get; set; }
 
         
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<DeviceConfigEntity>().ToTable("DeviceConfig");
+            modelBuilder.Entity<DeviceEntity>().ToTable("Device");
+            modelBuilder.Entity<UserEntity>().ToTable("User");
+            modelBuilder.Entity<UserDeviceEntity>().ToTable("UserDevice");
             modelBuilder.Entity<DeviceDataEntity>().ToTable("DeviceData");
             modelBuilder.Entity<CnemcDataEntity>().ToTable("CnemcData");
             modelBuilder.Entity<MqttMessageEntity>().ToTable("MqttMessageQueue");
@@ -40,6 +41,21 @@ namespace RGDatabaseService
             {
                 entity.HasKey(e => e.Id);
                 entity.HasIndex(e => new {e.DeviceId, e.ReceivedAt});
+            });
+
+            modelBuilder.Entity<UserDeviceEntity>(entity =>
+            {
+                entity.HasIndex(e => new { e.UserId, e.DeviceId }).IsUnique();
+
+                entity.HasOne(e => e.User)
+                      .WithMany(u => u.UserDevices)
+                      .HasForeignKey(e => e.UserId)
+                      .OnDelete(DeleteBehavior.Cascade);
+
+                entity.HasOne(e => e.Device)
+                      .WithMany()
+                      .HasForeignKey(e => e.DeviceId)
+                      .OnDelete(DeleteBehavior.Restrict); // 不级联删除设备
             });
         }
     }

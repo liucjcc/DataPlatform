@@ -26,10 +26,18 @@ namespace RGDatabaseService
 
     //}
 
-    [Table("DeviceConfig")]
-    public class DeviceConfigEntity
+    public enum DevicePermission : byte
+    {
+        Read = 1,   // 只能看数据
+        Control = 2,   // 下发命令
+        Manage = 3    // 参数、校准、绑定
+    }
+
+    [Table("Device")]
+    public class DeviceEntity
     {
         [Key]
+        [MaxLength(64)]
         public string DeviceId { get; set; }           // 主键
 
         [Required]
@@ -41,6 +49,61 @@ namespace RGDatabaseService
         public bool? Status { get; set; } // 在线状态，true = 在线
     }
 
+    [Table("User")]
+    public class UserEntity
+    {
+        [Key]
+        public long UserId { get; set; }
+
+        [Required]
+        [MaxLength(64)]
+        public string Username { get; set; }
+
+        [Required]
+        [MaxLength(256)]
+        public string PasswordHash { get; set; }
+
+        [MaxLength(64)]
+        public string? DisplayName { get; set; }
+
+        [MaxLength(32)]
+        public string Role { get; set; } = "user";     // admin / user / readonly
+
+        public bool IsEnabled { get; set; } = true;
+
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        // —— 导航属性 ——
+        public ICollection<UserDeviceEntity> UserDevices { get; set; }
+            = new List<UserDeviceEntity>();
+    }
+
+    [Table("UserDevice")]
+    public class UserDeviceEntity
+    {
+        [Key]
+        public long Id { get; set; }
+
+        [Required]
+        public long UserId { get; set; }
+
+        [Required]
+        [MaxLength(64)]
+        public string DeviceId { get; set; }
+
+        [Required]
+        public DevicePermission Permission { get; set; }
+            = DevicePermission.Read;
+
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        // —— 导航属性 ——
+        [ForeignKey(nameof(UserId))]
+        public UserEntity User { get; set; }
+
+        [ForeignKey(nameof(DeviceId))]
+        public DeviceEntity Device { get; set; }
+    }
 
     [Table("DeviceData")]
     public class DeviceDataEntity
@@ -54,7 +117,7 @@ namespace RGDatabaseService
         public string Owner { get; set; } = string.Empty;           // 设备所属者
 
         [Required]
-        [MaxLength(50)]
+        [MaxLength(64)]
         public string DeviceId { get; set; } = string.Empty;        // 设备唯一ID
 
         [Required]
@@ -83,7 +146,7 @@ namespace RGDatabaseService
         public string Owner { get; set; } = string.Empty;           // 设备所属者
 
         [Required]
-        [MaxLength(50)]
+        [MaxLength(64)]
         public string DeviceId { get; set; } = string.Empty;        // 设备唯一ID
 
         [Required]
@@ -133,7 +196,7 @@ namespace RGDatabaseService
         public string Owner { get; set; } = string.Empty;
 
         [Required]
-        [MaxLength(50)]
+        [MaxLength(64)]
         public string DeviceId { get; set; } = string.Empty;
 
         [Required]
