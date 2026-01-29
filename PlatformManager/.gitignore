@@ -1,0 +1,29 @@
+## 忽略Visual Studio用户特定文件 ##
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vscode/
+.vs/
+
+## 忽略构建输出 ##
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+x64/
+x86/
+[Pp]ublish/
+
+## 忽略NuGet包和缓存 ##
+[Nn]u[Gg]et/
+*.nupkg
+packages/
+nuget.exe
+.nuget/
+
+## 忽略Visual Studio临时文件 ##
+_ReSharper*/
+*.cache
+*.ide
+*.swp
