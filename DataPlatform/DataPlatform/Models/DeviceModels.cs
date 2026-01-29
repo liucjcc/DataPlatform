@@ -27,7 +27,7 @@ namespace DataPlatform.Models
         public List<WeatherHistoryDto> History { get; set; }
     }
 
-    public class DeviceConfigDto
+    public class DeviceDto
     {
         public string DeviceId { get; set; } = string.Empty;
         public string DeviceName { get; set; } = string.Empty; 

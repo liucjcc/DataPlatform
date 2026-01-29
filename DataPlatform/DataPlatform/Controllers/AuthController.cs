@@ -1,4 +1,5 @@
 using DataPlatform.Models;
+using DataPlatform.Shared.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -29,12 +30,12 @@ namespace DataPlatform.Controllers
 
         public IActionResult Login([FromBody] LoginDto dto)
         {
-            User user;
+            UserEntity user;
 
             // 模拟两个账号
             if (dto.Username == "admin" && dto.Password == "12345")
             {
-                user = new User
+                user = new UserEntity
                 {
                     Id = 1,
                     Username = "admin",
@@ -43,7 +44,7 @@ namespace DataPlatform.Controllers
             }
             else if (dto.Username == "user" && dto.Password == "12345")
             {
-                user = new User
+                user = new UserEntity
                 {
                     Id = 2,
                     Username = "user",

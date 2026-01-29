@@ -1,11 +1,15 @@
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace DataPlatform.Models
 {
-    public class User
-    {
-        public int Id { get; set; }
-        public string Username { get; set; } = "";
-        public string Role { get; set; } = "User";
-    }
+    //public class User
+    //{
+    //    public int Id { get; set; }
+    //    public string Username { get; set; } = "";
+    //    public string Role { get; set; } = "User";
+    //}
+
 
     public class LoginDto
     {

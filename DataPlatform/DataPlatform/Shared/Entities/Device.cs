@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DataPlatform.Shared.Entities
 {
-    public class DeviceConfigEntity
+    public class DeviceEntity
     {
         [Key]
         public string DeviceId { get; set; }

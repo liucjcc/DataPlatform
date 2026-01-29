@@ -22,7 +22,7 @@ namespace DataPlatform.Shared.DataAccess
             return db.DeviceList.Any(d => d.DeviceId == deviceId);
         }
 
-        public List<DeviceConfigEntity> GetAllDevices()
+        public List<DeviceEntity> GetAllDevices()
         {
             using var db = _factory.CreateDbContext();
             return db.DeviceList
@@ -30,7 +30,7 @@ namespace DataPlatform.Shared.DataAccess
                      .ToList();// ToList() 会立即执行查询
         }
 
-        public DeviceConfigEntity GetDeviceById(string deviceId)
+        public DeviceEntity GetDeviceById(string deviceId)
         {
             using var db = _factory.CreateDbContext();
             var device = db.DeviceList.Find(deviceId);
@@ -41,7 +41,7 @@ namespace DataPlatform.Shared.DataAccess
             return device;
         }
 
-        public void AddDevice(DeviceConfigEntity device)
+        public void AddDevice(DeviceEntity device)
         {
             using var db = _factory.CreateDbContext();
 
@@ -52,7 +52,7 @@ namespace DataPlatform.Shared.DataAccess
             db.SaveChanges();
         }
 
-        public DeviceConfigEntity DeleteDevice(string deviceId)
+        public DeviceEntity DeleteDevice(string deviceId)
         {
             using var db = _factory.CreateDbContext();
 
@@ -60,7 +60,7 @@ namespace DataPlatform.Shared.DataAccess
             if (existing == null)
                 throw new InvalidOperationException("DeviceId 不存在");
 
-            var deletedDevice = new DeviceConfigEntity
+            var deletedDevice = new DeviceEntity
             {
                 DeviceId = existing.DeviceId,
                 DeviceName = existing.DeviceName,
@@ -74,7 +74,7 @@ namespace DataPlatform.Shared.DataAccess
             return deletedDevice;
         }
 
-        public void UpdateDevice(DeviceConfigEntity device)
+        public void UpdateDevice(DeviceEntity device)
         {
             using var db = _factory.CreateDbContext();
 

@@ -5,6 +5,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
+using DataPlatform.Shared.Entities; 
 
 public class JwtTokenService
 {
@@ -19,7 +20,7 @@ public class JwtTokenService
     }
 
     // 生成 Access Token
-    public (string token, DateTime expires) GenerateAccessToken(User user)
+    public (string token, DateTime expires) GenerateAccessToken(UserEntity user)
     {
         var claims = new[]
         {
@@ -64,7 +65,7 @@ public class JwtTokenService
             throw new SecurityTokenException("Invalid refresh token");
 
         // 模拟用户信息
-        var user = new User { Id = 1, Username = username, Role = "User" };
+        var user = new UserEntity { Id = 1, Username = username, Role = "User" };
         return GenerateAccessToken(user);
     }
 }

@@ -97,11 +97,11 @@ namespace DataPlatform.Controllers
 
         [HttpPost("add")]
         [Authorize(Roles = "Admin,Manager")]
-        public async Task<IActionResult> AddDevice([FromBody] DeviceConfigDto dto)
+        public async Task<IActionResult> AddDevice([FromBody] DeviceDto dto)
         {
             try
             {
-                var entity = new DeviceConfigEntity
+                var entity = new DeviceEntity
                 {
                     DeviceId = dto.DeviceId,
                     DeviceName = dto.DeviceName,
@@ -130,11 +130,11 @@ namespace DataPlatform.Controllers
 
         [HttpPost("update")]
         [Authorize(Roles = "Admin,Manager")]
-        public async Task<IActionResult> UpdateDevice([FromBody] DeviceConfigDto dto)
+        public async Task<IActionResult> UpdateDevice([FromBody] DeviceDto dto)
         {
             try
             {
-                var entity = new DeviceConfigEntity
+                var entity = new DeviceEntity
                 {
                     DeviceId = dto.DeviceId,
                     DeviceName = dto.DeviceName,
